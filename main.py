@@ -1,35 +1,41 @@
-a = "Affan Tahir"
+# n=int(input("Enter a number"))
+# fact = 1
+# for i in range(1,n+1):
+#     fact = fact * i
 
-print(a[0:3:1])
+# print(fact)    
 
-num = (input("Enter your phone number "))
-age = int(input("Enter your age "))
+# n= int(input("Enter a number"))
+# sum = 0
+# for i in range(1,n+1):
+#     if i% 2 == 0:
+#         sum = sum + i
+# print(sum)        
 
-print(f"Your phone number is {num}")
-print(f"Your age is {age}")
 
-print(126 > 130)
+# n = (int(input("Enter a number to check its factors")))
+# for i in range (1 , n+1):
+#     if n%i == 0:
+#         print(i)
 
-print((456==456)!=(235==236))
+# n = int(input("Enter a number to check if its a perfect number"))
+# sum = 0
+# for i in range(1,n):
+#     if n%i == 0:
+#         sum = sum + i
 
-num1 = int(input("Enter a number"))
-num2 = int(input("Enter a second number"))
+# if sum == n:
+#     print("Its a perfect number")
+# else:
+#     print("Its not a perfect number")    
 
-if num1 > num2:
-    print(num1)
+n = int(input("Enter a number to check if its a prime number or not"))
+count = 0
+for i in range(1,n+1):
+    if n % i == 0:
+        count = count + 1
+
+if count <=2:
+    print("Its a prime number")
 else:
-    print(num2)    
-
-gender = (input("Please enter your gender "))
-if gender == "M":
-    print("Male")
-elif gender == "F":
-    print("Female")
-else:
-    print("other")        
-
-num = int(input("Enter a number to check if its even or odd"))
-if num % 2 == 0:
-    print("even")
-else:
-    print("odd")    
+    print("It is not a prime number")    
